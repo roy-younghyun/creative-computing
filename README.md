@@ -1,2 +1,3 @@
 # creative-computing
-test repository
+
+test repository for cc class code to be stored
