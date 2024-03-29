@@ -36,6 +36,20 @@ function draw() {
     textAlign(CENTER);
     text(label, width / 2, height - 4);
 
+    if (label === 'Phone') {
+        fill(255, 0, 0);
+        circle(width / 2, height / 4, 50);
+    } else if (label === 'SSD') {
+        fill(0, 255, 0);
+        circle(width / 2, height / 4, 50);
+    } else if (label === 'Wallet') {
+        fill(255, 0, 0);
+        circle(width / 2, height / 4, 50);
+    } else if (label === 'Passport') {
+        fill(255, 255, 0);
+        circle(width / 2, height / 4, 50);
+    };
+
 }
 
 // Get a prediction for the current video frame
