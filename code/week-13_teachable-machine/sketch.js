@@ -46,7 +46,7 @@ function draw() {
         fill(255, 0, 0);
         circle(width / 2, height / 4, 50);
     } else if (label === 'Passport') {
-        fill(255, 255, 0);
+        fill(255, 0, 255);
         circle(width / 2, height / 4, 50);
     };
 
